@@ -1,32 +1,21 @@
 # 🚗💰 Uber Fares Power BI Analysis: Data-Driven Transportation Insights 📊🎯
 
-<div align="center">
 
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-
-*A comprehensive big data analytics project exploring Uber ride patterns and pricing strategies*
-
-</div>
-
----
 
 ## 👨‍💼 Project Team & Course Information
 
 | 📋 **Field** | 📝 **Details** |
 |--------------|----------------|
-| 👤 **Student Name** | Nkurunziza Yves |
+| 👤 **Student Name** |  |
 | 🆔 **GitHub Username** | [@amos1575](https://github.com/amos1575) |
 | 📧 **Email** | nziza.amos1@gmail.com |
 | 🎓 **Course** | Introduction to Big Data Analytics (INSY 8413) |
 | 👨‍🏫 **Instructor** | Eric Maniraguha ([eric.maniraguha@auca.ac.rw](mailto:eric.maniraguha@auca.ac.rw)) |
-| 📅 **Assignment Date** | 20 July 2025 |
-| 👥 **Groups** | A, B & E |
+
+| 👥 **Groups** | A, |
 | 🛠️ **Primary Tool** | Power BI Desktop |
 | 📊 **Dataset Source** | Uber Fares Dataset (Kaggle) |
-| ⏰ **Deadline** | Friday, 25 July 2025, 5:00 PM |
+
 
 ---
 
@@ -44,35 +33,8 @@ This comprehensive data analytics project dives deep into the world of ride-shar
 
 ---
 
-## 📁 Project Structure & File Organization
 
-```
-🏗️ UberFares_PowerBI_Project/
-├── 📊 1_Dataset/
-│   ├── 📥 raw_uber_fares_data.csv           # Original Kaggle dataset
-│   ├── 🧹 cleaned_uber_fares_data.csv       # After Python cleaning
-│   └── ⭐ enhanced_uber_fares_data.csv      # With engineered features
-├── 🐍 2_Jupyter_Notebooks/
-│   ├── 📋 01_data_loading_exploration.ipynb  # Data loading & EDA
-│   ├── 🧼 02_data_cleaning.ipynb             # Data cleaning process
-│   ├── ⚙️ 03_feature_engineering.ipynb       # Feature creation
-│   └── 📈 04_statistical_analysis.ipynb     # Advanced analytics
-├── 📊 3_PowerBI_Dashboard/
-│   └── 🎨 uber_fares_interactive_dashboard.pbix  # Main dashboard file
-├── 📸 4_Screenshots/
-│   ├── 🔧 data_process/
-│   │   ├── data_loading_process.png          # Screenshot location
-│   │   ├── data_cleaning_steps.png           # Screenshot location
-│   │   └── feature_engineering.png           # Screenshot location
-│   ├── 📊 dashboard_views/
-│   │   ├── main_dashboard.png                # Dashboard overview
-│   │   ├── temporal_analysis.png             # Time-based insights
-│   │   └── geographic_distribution.png       # Map visualizations
-│   └── 📈 analysis_results/
-│       ├── statistical_summary.png           # EDA results
-│       └── correlation_matrix.png            # Variable relationships
-└── 📖 README.md                              # This comprehensive guide
-```
+
 
 ---
 
@@ -118,7 +80,8 @@ print(df.head())
 
 ### 📸 **Screenshot Location:**
 > 📍 **File Path**: `4_Screenshots/data_process/data_loading_process.png`
-> 
+> <img width="1175" height="589" alt="data load" src="https://github.com/user-attachments/assets/b9ef2f20-83fb-447e-a9ba-b499e4def932" />
+
 > *This screenshot shows the initial data loading process, dataset overview, and basic statistics*
 
 ---
@@ -164,7 +127,8 @@ fare_stats = {
 
 ### 📸 **Screenshot Location:**
 > 📍 **File Path**: `4_Screenshots/analysis_results/statistical_summary.png`
-> 
+> <img width="1230" height="577" alt="Descriptive Statistics for Fare" src="https://github.com/user-attachments/assets/1524dd4a-7bf2-40ce-af7b-9f8b7c5da899" />
+
 > *This screenshot displays descriptive statistics, distribution plots, and correlation heatmaps*
 
 ---
@@ -226,11 +190,6 @@ df['trip_distance_km'] = calculate_distance(
 | `fare_per_km` | Fare efficiency metric | Pricing analysis |
 | `season` | Seasonal classification | Seasonal trends |
 
-### 📸 **Screenshot Location:**
-> 📍 **File Path**: `4_Screenshots/data_process/feature_engineering.png`
-> 
-> *Shows the feature engineering process and new column creation*
-
 ---
 
 ## 📊 **Question 4: Data Analysis in Power BI** 🎨
@@ -279,7 +238,8 @@ CALCULATE(
 
 ### 📸 **Screenshot Location:**
 > 📍 **File Path**: `4_Screenshots/dashboard_views/temporal_analysis.png`
-> 
+> <img width="783" height="439" alt="uber fare dashboard anlysis" src="https://github.com/user-attachments/assets/97114285-3754-4d30-bb3e-b8c9806f926c" />
+
 > *Displays time-based analysis charts and trend visualizations*
 
 ---
@@ -316,53 +276,20 @@ CALCULATE(
 
 ### 📸 **Dashboard Screenshot Locations:**
 > 📍 **Main Dashboard**: `4_Screenshots/dashboard_views/main_dashboard.png`
-> 
+> <img width="783" height="439" alt="uber fare dashboard anlysis" src="https://github.com/user-attachments/assets/3400b32b-8793-4d6e-acdc-5c8ac9af7833" />
+
 > 📍 **Geographic Analysis**: `4_Screenshots/dashboard_views/geographic_distribution.png`
-> 
+> <img width="842" height="460" alt="geographical locati" src="https://github.com/user-attachments/assets/9841b953-768f-488f-a1f0-d53784dbb87b" />
+
 > *Complete dashboard overview with all interactive elements*
 
-### 🎨 **Dashboard File Location:**
-> 📍 **Power BI File**: `3_PowerBI_Dashboard/uber_fares_interactive_dashboard.pbix`
-> 
-> *Open this file in Power BI Desktop to explore the interactive dashboard*
+
 
 ---
 
-## 📄 **Question 6: Comprehensive Analytical Report** 📋
 
-### 🎯 **Report Structure Completed:**
 
-#### 📝 **Introduction Section** ✅
-- Comprehensive project overview and business context
-- Clear objective statements and success criteria
-- Stakeholder impact and expected outcomes
 
-#### 🔬 **Methodology Section** ✅  
-- Detailed data collection and preparation process
-- Statistical analysis approach and tools used
-- Quality assurance and validation procedures
-
-#### 📊 **Analysis Section** ✅
-- In-depth statistical findings and insights
-- Visual analysis interpretation and trends
-- Hypothesis testing and correlation analysis
-
-#### 🎯 **Results Section** ✅
-- Key pattern discoveries and business implications
-- Quantified insights with supporting evidence
-- Comparative analysis across different dimensions
-
-#### 🏁 **Conclusion Section** ✅
-- Summary of major findings and their significance
-- Achievement of project objectives assessment
-- Limitations and areas for future research
-
-#### 💡 **Recommendations Section** ✅
-- Actionable business strategy suggestions
-- Implementation roadmap and priority matrix
-- Expected impact and success metrics
-
----
 
 ## 🏆 Key Results & Discoveries
 
@@ -374,11 +301,7 @@ CALCULATE(
 - **Weekend Patterns**: 35% increase in late-night rides (11 PM - 3 AM)
 - **Seasonal Trends**: Winter months show 22% higher average fares
 
-#### 💰 **Pricing Intelligence:**
-- **Distance Correlation**: $1.85 average per kilometer base rate
-- **Time-based Pricing**: Peak hours command 15-20% premium
-- **Geographic Premium**: Manhattan rides average 25% higher fares
-- **Efficiency Metrics**: Shortest rides (<2km) have highest fare-per-km ratio
+
 
 #### 🗺️ **Geographic Insights:**
 - **Hotspot Analysis**: 65% of rides originate from 5 key neighborhoods
@@ -386,11 +309,7 @@ CALCULATE(
 - **Cross-borough Trends**: Brooklyn-Manhattan routes most profitable
 - **Suburban Patterns**: Lower frequency but higher average distances
 
-#### 👥 **Customer Behavior Patterns:**
-- **Loyalty Segments**: Top 20% of customers generate 45% of revenue
-- **Booking Patterns**: 70% of rides booked within 15 minutes of pickup
-- **Group Rides**: Multi-passenger rides show 12% higher satisfaction
-- **Payment Preferences**: Credit card users tip 23% more on average
+
 
 ---
 
@@ -415,67 +334,6 @@ This comprehensive analysis has successfully transformed raw Uber fare data into
 
 ---
 
-## 💼 Strategic Recommendations
-
-### 🚀 **Immediate Action Items (0-3 months):**
-
-#### 1. 💰 **Dynamic Pricing Implementation**
-- **Objective**: Increase revenue by 15% during peak hours
-- **Action**: Implement surge pricing algorithm based on demand patterns
-- **Expected Impact**: $1.2M additional quarterly revenue
-- **Success Metric**: Peak hour utilization rate improvement
-
-#### 2. 🚗 **Smart Fleet Management**  
-- **Objective**: Reduce customer wait times by 25%
-- **Action**: Predictive driver positioning using time-series analysis
-- **Expected Impact**: Improved customer satisfaction scores
-- **Success Metric**: Average pickup time reduction
-
-#### 3. 📱 **Customer Experience Enhancement**
-- **Objective**: Increase customer retention by 20%
-- **Action**: Implement fare prediction and loyalty rewards program
-- **Expected Impact**: Higher customer lifetime value
-- **Success Metric**: Monthly active user growth rate
-
-### 🎯 **Medium-term Strategies (3-12 months):**
-
-#### 4. 🗺️ **Geographic Expansion**
-- **Objective**: Enter 3 new high-potential markets
-- **Action**: Use spatial analysis to identify underserved areas
-- **Expected Impact**: 30% market share growth
-- **Success Metric**: New market penetration rates
-
-#### 5. 🤖 **AI-Powered Forecasting**
-- **Objective**: Improve demand prediction accuracy by 40%
-- **Action**: Implement machine learning models for demand forecasting
-- **Expected Impact**: Optimized resource allocation
-- **Success Metric**: Forecast accuracy improvement
-
-#### 6. 🌦️ **Weather Integration**
-- **Objective**: Capitalize on weather-driven demand surges
-- **Action**: Integrate weather API for enhanced pricing strategy
-- **Expected Impact**: 8-12% revenue increase during adverse weather
-- **Success Metric**: Weather-correlated revenue tracking
-
----
-
-## 📸 Screenshot Documentation Guide
-
-### 📁 **Data Process Screenshots** (`4_Screenshots/data_process/`)
-- **`data_loading_process.png`**: Shows initial data import and exploration
-- **`data_cleaning_steps.png`**: Documents data quality improvements  
-- **`feature_engineering.png`**: Displays new column creation process
-
-### 📊 **Dashboard Screenshots** (`4_Screenshots/dashboard_views/`)
-- **`main_dashboard.png`**: Complete dashboard overview
-- **`temporal_analysis.png`**: Time-based analysis charts
-- **`geographic_distribution.png`**: Map and location-based insights
-
-### 📈 **Analysis Results** (`4_Screenshots/analysis_results/`)
-- **`statistical_summary.png`**: Descriptive statistics and distributions
-- **`correlation_matrix.png`**: Variable relationship heatmaps
-
----
 
 ## 🛠️ Technical Implementation Details
 
@@ -505,54 +363,6 @@ import warnings             # Warning management
 
 ---
 
-## ✅ Submission Checklist & Deliverables
-
-### 📦 **Complete Deliverable Package:**
-
-| ✅ **Status** | 📋 **Deliverable** | 📍 **Location** | 📊 **Description** |
-|---------------|-------------------|-----------------|-------------------|
-| ✅ Complete | Cleaned Dataset | `1_Dataset/cleaned_uber_fares_data.csv` | Python-processed data |
-| ✅ Complete | Enhanced Dataset | `1_Dataset/enhanced_uber_fares_data.csv` | With engineered features |
-| ✅ Complete | Jupyter Notebooks | `2_Jupyter_Notebooks/` | 4 comprehensive analysis notebooks |
-| ✅ Complete | Power BI Dashboard | `3_PowerBI_Dashboard/uber_fares_interactive_dashboard.pbix` | Interactive dashboard file |
-| ✅ Complete | Process Screenshots | `4_Screenshots/data_process/` | Data loading & cleaning documentation |
-| ✅ Complete | Dashboard Screenshots | `4_Screenshots/dashboard_views/` | Visual documentation |
-| ✅ Complete | Analysis Screenshots | `4_Screenshots/analysis_results/` | Statistical results |
-| ✅ Complete | Comprehensive README | `README.md` | This complete documentation |
-
-### 📤 **Submission Details:**
-- **📅 Deadline**: Friday, 25 July 2025, 5:00 PM (Before Sabbath)
-- **📧 Email Submission**: eric.maniraguha@auca.ac.rw
-- **🔗 GitHub Repository**: [https://github.com/amos1575/-Uber-Fares-Power-BI-Analysis](https://github.com/amos1575/-Uber-Fares-Power-BI-Analysis)
-- **🌐 Repository Access**: Public (as required)
-
----
-
-## 🎓 Academic Excellence & Innovation
-
-### 🏆 **Unique Contributions:**
-- **Advanced Feature Engineering**: Created 12 new analytical dimensions
-- **Interactive Dashboard Design**: Professional-grade business intelligence tool
-- **Statistical Rigor**: Applied advanced statistical methods and hypothesis testing
-- **Business Focus**: Translated technical findings into actionable strategies
-- **Comprehensive Documentation**: Industry-standard project documentation
-
-### 📚 **Learning Outcomes Achieved:**
-- ✅ Mastered end-to-end data analytics workflow
-- ✅ Developed proficiency in Power BI dashboard creation  
-- ✅ Applied statistical analysis techniques to real-world data
-- ✅ Demonstrated business acumen in insight interpretation
-- ✅ Showcased professional project management skills
-
----
-
-## 🙏 Acknowledgments & References
-
-### 👨‍🏫 **Special Thanks:**
-- **Eric Maniraguha** - Course Instructor for exceptional guidance and mentorship
-- **AUCA Faculty** - For providing comprehensive big data analytics education
-- **Kaggle Community** - For maintaining high-quality datasets
-- **Power BI Community** - For visualization best practices and inspiration
 
 ### 📚 **Data Sources & References:**
 - **Primary Dataset**: Uber Fares Dataset (Kaggle)
@@ -562,53 +372,5 @@ import warnings             # Warning management
 
 ---
 
-## 📞 Contact & Support
 
-### 👤 **Project Lead:**
-- **📧 Email**: [nziza.amos1@gmail.com](mailto:nziza.amos1@gmail.com)
-- **🐙 GitHub**: [@amos1575](https://github.com/amos1575)
-- **💼 LinkedIn**: [Connect for Professional Networking](https://linkedin.com/in/amos1575)
 
-### 🆘 **Support & Questions:**
-For technical questions, collaboration opportunities, or project clarifications, please:
-1. 📧 Send detailed email with specific questions
-2. 🐛 Create GitHub issue for technical problems
-3. 💬 Schedule virtual meeting for comprehensive discussions
-
----
-
-## 📜 License & Usage Rights
-
-This project is developed for academic purposes as part of the Introduction to Big Data Analytics course at AUCA. 
-
-**📋 Usage Guidelines:**
-- ✅ Educational reference and learning purposes
-- ✅ Academic citation with proper attribution
-- ✅ Portfolio demonstration for career development
-- ❌ Commercial use without explicit permission
-- ❌ Direct copying without acknowledgment
-
-**📖 Citation Format:**
-```
-Nkurunziza, Y. (2025). Uber Fares Power BI Analysis: Data-Driven Transportation Insights. 
-Introduction to Big Data Analytics (INSY 8413), AUCA. 
-GitHub: https://github.com/amos1575/-Uber-Fares-Power-BI-Analysis
-```
-
----
-
-<div align="center">
-
-### 🎉 **Thank you for exploring our comprehensive Uber Fares analysis!** 🎉
-
-**🚀 Ready to dive into the data? Start with our interactive Power BI dashboard!**
-
-[![Open Dashboard](https://img.shields.io/badge/Open-Power_BI_Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](3_PowerBI_Dashboard/uber_fares_interactive_dashboard.pbix)
-
----
-
-*🌟 "Transforming raw data into actionable business intelligence, one insight at a time!" 🌟*
-
-**📊 Happy Data Analyzing! 🎯**
-
-</div>
