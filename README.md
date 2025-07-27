@@ -23,7 +23,7 @@
 ## 🎯 Project Introduction & Objectives
 
 ### 🌟 Project Overview
-This comprehensive data analytics project dives deep into the world of ride-sharing economics by analyzing Uber's fare data. Like a skilled detective uncovering hidden patterns, we explore the intricate relationships between pricing, demand, time, and geography to reveal actionable business insights.
+This data analytics project explores Uber fare trends to uncover business insights that improve decision-making. Leveraging data from New York City Uber rides, we used Python for analysis and Power BI for rich, interactive dashboards.
 
 ### 🎪 Key Objectives
 - 🔍 **Discover Pricing Patterns**: Analyze fare structures across different time periods and locations
