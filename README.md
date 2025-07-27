@@ -4,17 +4,18 @@
 
 ## 👨‍💼 Project Team & Course Information
 
-| 📋 **Field** | 📝 **Details** |
-|--------------|----------------|
-| 👤 **Student Name** |  |
-| 🆔 **GitHub Username** | [@amos1575](https://github.com/amos1575) |
-| 📧 **Email** | nziza.amos1@gmail.com |
-| 🎓 **Course** | Introduction to Big Data Analytics (INSY 8413) |
-| 👨‍🏫 **Instructor** | Eric Maniraguha ([eric.maniraguha@auca.ac.rw](mailto:eric.maniraguha@auca.ac.rw)) |
+| 📋 **Field**           | 📝 **Details**                                                                                                                  |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| 👤 **Student Name**    | NKURUNZIZA Amos                                                                                                                 |
+| 🆔 **Student ID**      | 26973                                                                                                                           |
+| 🆔 **GitHub Username** | [@amos1575](https://github.com/amos1575)                                                                                        |
+| 📧 **Email**           | [nziza.amos1@gmail.com](mailto:nziza.amos1@gmail.com)                                                                           |
+| 🎓 **Course**          | Introduction to Big Data Analytics (INSY 8413)                                                                                  |
+| 👨‍🏫 **Instructor**   | Eric Maniraguha ([eric.maniraguha@auca.ac.rw](mailto:eric.maniraguha@auca.ac.rw))                                               |
+| 👥 **Group**           | A                                                                                                                               |
+| 🛠️ **Primary Tool**   | Power BI Desktop                                                                                                                |
+| 📊 **Dataset Source**  | Uber Pickups in New York City - [Kaggle Dataset](https://www.kaggle.com/datasets/fivethirtyeight/uber-pickups-in-new-york-city) |
 
-| 👥 **Groups** | A, |
-| 🛠️ **Primary Tool** | Power BI Desktop |
-| 📊 **Dataset Source** | Uber Fares Dataset (Kaggle) |
 
 
 ---
